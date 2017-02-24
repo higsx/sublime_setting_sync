@@ -1,0 +1,26 @@
+[
+		{ "keys": ["ctrl+shift+v"], "command": "paste_from_history" },
+		{ "keys": ["f5"], "command": "build" },
+		{ "keys": ["shift+alt+j"], "command": "open_dir", "args": {"dir": "$file_path", "file":"$file_name"}},
+		{ "keys": ["ctrl+g"], "command": "goto_definition " },
+		{ "keys": ["shift+alt+u"], "command": "close_others"},
+		{ "keys": ["alt+f2"], "command": "Next Bookmark"},
+		{ "keys": ["ctrl+k","ctrl+c"], "command": "toggleBookmark"},
+		{ "keys": ["ctrl+k"], "command": "toggleBookmark"},
+
+		{ "keys": ["ctrl+shift+c"], "command": "copy_path" },
+
+		 { "keys": ["alt+f1"], "command": "side_bar_files_open_with",
+		             "args": {
+		                "paths": [],
+		                "application": "D:/soft/Vim/vim74/gvim.exe",
+		                "extensions":".*" //匹配任何文件类型
+		            }
+		    },
+
+	    	{ "keys": ["ctrl+shift+r"], "command": "goto_symbol_in_project" },
+
+
+		    { "keys": ["ctrl+shift+a"], "command": "sublimelinter_show_all_errors" },
+		    { "keys": ["ctrl+alt+p"], "command": "prompt_select_workspace" }
+]

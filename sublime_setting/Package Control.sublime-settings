@@ -1,0 +1,30 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"BracketHighlighter",
+		"CSV",
+		"ExtendedTabSwitcher",
+		"FileSystem Autocompletion",
+		"Function Name Display",
+		"Package Control",
+		"Run Apps",
+		"Sublime Bookmarks",
+		"SublimeLinter",
+		"SublimeLinter-contrib-lua-globals",
+		"SublimeLinter-json",
+		"SublimeLinter-lua",
+		"SublimeLinter-luacheck",
+		"SublimeREPL",
+		"Sync Settings",
+		"Terminal",
+		"Vintage Escape",
+		"Vintageous",
+		"WhoCalled Function Finder",
+		"WordHighlight"
+	]
+}

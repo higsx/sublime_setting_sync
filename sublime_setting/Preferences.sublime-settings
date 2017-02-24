@@ -1,0 +1,55 @@
+{
+	"attributes":
+	[
+		"dirty",
+		"selected"
+	],
+	"binary_file_patterns":
+	[
+		"*.jpg",
+		"*.jpeg",
+		"*.png",
+		"*.gif",
+		"*.ttf",
+		"*.tga",
+		"*.dds",
+		"*.ico",
+		"*.eot",
+		"*.pdf",
+		"*.swf",
+		"*.jar",
+		"*.zip",
+		"*.gazpk"
+	],
+	"caret_extra_bottom": 1,
+	"caret_extra_top": 2,
+	"caret_extra_width": 3,
+	"class": "tab_control",
+	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
+	"default_encoding": "UTF-8",
+	"file_exclude_patterns":
+	[
+		"*.log"
+	],
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS"
+	],
+	"font_face": "微软雅黑",
+	"font_size": 11,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+	],
+	"preview_on_click": false,
+	"settings":
+	[
+		"highlight_modified_tabs"
+	],
+	"show_encoding": true,
+	"update_check": false
+}
