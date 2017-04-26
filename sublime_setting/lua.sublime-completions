@@ -1,0 +1,8 @@
+{
+   "scope": "source.lua",
+ 
+   "completions":
+   [
+	  { "trigger": "!minfo", "contents": "filelog.sys_info('$1')" },
+	]
+}

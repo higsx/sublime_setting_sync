@@ -25,12 +25,9 @@
 	"caret_extra_top": 2,
 	"caret_extra_width": 3,
 	"class": "tab_control",
+	"close_windows_when_empty": false,
 	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
 	"default_encoding": "UTF-8",
-	"file_exclude_patterns":
-	[
-		"*.log"
-	],
 	"folder_exclude_patterns":
 	[
 		".svn",
@@ -38,10 +35,11 @@
 		".hg",
 		"CVS"
 	],
-	"font_face": "微软雅黑",
-	"font_size": 11,
+	"font_face": "Monaco",
+	"font_size": 10,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
+	"ignore_vcs_packages": true,
 	"ignored_packages":
 	[
 	],

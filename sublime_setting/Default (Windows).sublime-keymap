@@ -8,12 +8,17 @@
 		{ "keys": ["ctrl+k","ctrl+c"], "command": "toggleBookmark"},
 		{ "keys": ["ctrl+k"], "command": "toggleBookmark"},
 
+		{ "keys": ["ctrl+h"], "command": "focus_group", "args": { "group": 0 } },
+		{ "keys": ["ctrl+l"], "command": "focus_group", "args": { "group": 1 } },
+
+
+
 		{ "keys": ["ctrl+shift+c"], "command": "copy_path" },
 
 		 { "keys": ["alt+f1"], "command": "side_bar_files_open_with",
 		             "args": {
 		                "paths": [],
-		                "application": "D:/soft/Vim/vim74/gvim.exe",
+		                "application": "c:/Program Files (x86)/Vim/vim80/gvim.exe",
 		                "extensions":".*" //匹配任何文件类型
 		            }
 		    },
