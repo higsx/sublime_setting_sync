@@ -10,7 +10,8 @@
 
 		{ "keys": ["ctrl+h"], "command": "focus_group", "args": { "group": 0 } },
 		{ "keys": ["ctrl+l"], "command": "focus_group", "args": { "group": 1 } },
-
+		{ "keys": ["ctrl+shift+h"], "command": "move_to_group", "args": { "group": 0 } },
+		{ "keys": ["ctrl+shift+l"], "command": "move_to_group", "args": { "group": 1 } },
 
 
 		{ "keys": ["ctrl+shift+c"], "command": "copy_path" },
@@ -22,6 +23,28 @@
 		                "extensions":".*" //匹配任何文件类型
 		            }
 		    },
+
+		 { "keys": ["alt+f1"], "command": "side_bar_files_open_with",
+		             "args": {
+		                "paths": [],
+		                "application": "c:/Program Files (x86)/Vim/vim80/gvim.exe",
+		                "extensions":".*" //匹配任何文件类型
+		            }
+		    },
+
+		 { "keys": ["alt+v"], "command": "side_bar_files_open_with",
+		             "args": {
+		                "paths": [],
+		                "application": "c:/Program Files (x86)/Vim/vim80/gvim.exe",
+		                "extensions":".*" //匹配任何文件类型
+		            }
+		    },
+
+		    { "keys": ["alt+u"], "command": "svn_update" },
+		    { "keys": ["alt+c"], "command": "svn_commit" },
+		    { "keys": ["alt+r"], "command": "svn_revert" },
+		    { "keys": ["alt+l"], "command": "svn_log" },
+		    { "keys": ["alt+d"], "command": "svn_diff" },
 
 	    	{ "keys": ["ctrl+shift+r"], "command": "goto_symbol_in_project" },
 
