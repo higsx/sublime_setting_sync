@@ -51,8 +51,8 @@
              { "keys": ["alt+r"], "command": "my_goto"},
 		    { "keys": ["ctrl+shift+a"], "command": "sublimelinter_show_all_errors" },
 		    { "keys": ["ctrl+alt+p"], "command": "prompt_select_workspace" },
-			{ "keys": ["alt+shift+q"], "command": "open_terminal" },
-			{ "keys": ["alt+shift+w"], "command": "open_terminal_project_folder" },
+			{ "keys": ["alt+q"], "command": "open_terminal" },
+			{ "keys": ["alt+w"], "command": "open_terminal_project_folder" },
 
 			{ "keys": ["ctrl+k", "ctrl+d"], "command": "find_under_expand_skip" }
 

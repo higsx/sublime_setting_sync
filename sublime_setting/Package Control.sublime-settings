@@ -1,5 +1,7 @@
 {
 	"bootstrapped": true,
+	"auto_upgrade": false,
+
 	"in_process_packages":
 	[
 	],
@@ -13,6 +15,7 @@
 		"Package Control",
 		"ProjectManager",
 		"Protobuf Syntax Hightlighting",
+		"Protocol Buffer Syntax",
 		"RecentActiveFiles",
 		"SideBarEnhancements",
 		"SnippetMaker",
