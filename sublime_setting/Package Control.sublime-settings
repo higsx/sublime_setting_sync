@@ -1,13 +1,13 @@
 {
-	"bootstrapped": true,
 	"auto_upgrade": false,
-
+	"bootstrapped": true,
 	"in_process_packages":
 	[
 	],
 	"installed_packages":
 	[
 		"All Autocomplete",
+		"AutoHotkey",
 		"BracketHighlighter",
 		"FormatLua",
 		"Function Name Display",
@@ -24,6 +24,7 @@
 		"SublimeLinter-lua",
 		"SublimeLinter-luacheck",
 		"Terminal",
+		"TortoiseGit Context Integration",
 		"TortoiseSVN",
 		"VIM Navigation",
 		"Vintage Escape",

@@ -21,12 +21,14 @@
 		"*.zip",
 		"*.gazpk"
 	],
+	"bold_folder_labels": true,
 	"caret_extra_bottom": 1,
 	"caret_extra_top": 2,
 	"caret_extra_width": 3,
 	"class": "tab_control",
 	"close_windows_when_empty": false,
 	"default_encoding": "UTF-8",
+	"default_line_ending": "unix",
 	"folder_exclude_patterns":
 	[
 		".svn",
